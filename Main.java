@@ -167,7 +167,7 @@ public class Main {
                     System.out.println("\n🧾 RECIBO DE PAGAMENTO 🧾");
                     System.out.println("==========================");
                     System.out.println("⏰ Chegada: " + (tempoChegada / 60) + "h " + (tempoChegada % 60) + "m");
-                    System.out.println("⏳ Tempo estacionado: " + horasCompletas + "h " + (tempoEstacionado % 60) + "m");
+                    System.out.println("⏳ Tempo estacionado: " + (tempoEstacionado / 60) + "h " + (tempoEstacionado % 60) + "m");
                     System.out.println("🚗 Saída: " + (horaSaida / 60) + "h " + minutosSaida + "m");
                     System.out.println("💰 Valor a ser pago: R$ " + valorCobrado);
                     System.out.println("==========================\n");
